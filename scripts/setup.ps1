@@ -1,6 +1,6 @@
-# AegisCore Windows PowerShell Setup Script
+# StackOfFifty Windows PowerShell Setup Script
 Write-Host "=======================================================" -ForegroundColor Cyan
-Write-Host "      AegisCore Platform Setup (PowerShell)           " -ForegroundColor Cyan
+Write-Host "      StackOfFifty Platform Setup (PowerShell)           " -ForegroundColor Cyan
 Write-Host "=======================================================" -ForegroundColor Cyan
 
 $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Definition

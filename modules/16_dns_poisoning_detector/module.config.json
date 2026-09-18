@@ -5,7 +5,7 @@
   "description": "Monitors recursive resolver responses, validates DNSSEC signatures, and detects cache spoofing",
   "category": "Network Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.16_dns_poisoning_detector.main",

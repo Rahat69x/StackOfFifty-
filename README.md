@@ -1,4 +1,4 @@
-# AegisCore — Modular Cybersecurity Defense & Operations Platform
+# StackOfFifty — Modular Cybersecurity Defense & Operations Platform
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green.svg)](https://fastapi.tiangolo.com/)
@@ -6,7 +6,7 @@
 [![Architecture](https://img.shields.io/badge/Defensive-100%25-brightgreen.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**AegisCore** is an enterprise-grade, modular cybersecurity platform engineered strictly for defensive operations, threat intelligence aggregation, system telemetry inspection, log correlation, and compliance auditing.
+**StackOfFifty** is an enterprise-grade, modular cybersecurity platform engineered strictly for defensive operations, threat intelligence aggregation, system telemetry inspection, log correlation, and compliance auditing.
 
 The platform orchestrates 50 self-contained defensive modules connected to a high-performance central control layer through a standardized interface (`BaseModule`).
 
@@ -45,14 +45,15 @@ cd dashboard
 npm install
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000) to access the AegisCore SOC dashboard.
+Open [http://localhost:3000](http://localhost:3000) to access the StackOfFifty SOC dashboard.
 
 ---
 
 ## Project Structure
 
 ```
-AegisCore/
+StackOfFifty/
+├── modules/                   # 50 Self-Contained Projects (01 to 50)
 ├── platform.config.json       # Master configuration (Single source of truth)
 ├── core/                      # Core runtime engine (Never modified per module)
 │   ├── module_base.py         # BaseModule abstract class
@@ -75,4 +76,4 @@ AegisCore/
 ---
 
 ## License
-MIT License. Developed by AegisCore SecOps.
+MIT License. Developed by StackOfFifty SecOps.

@@ -8,7 +8,7 @@
 #include "../cpp_core/ModuleRegistry.hpp"
 #include <chrono>
 
-namespace AegisCore {
+namespace StackOfFifty {
 
 class ApiServer {
 public:
@@ -44,7 +44,7 @@ private:
 
             nlohmann::json health = {
                 {"status", "healthy"},
-                {"platform", "AegisCore — Modular Cybersecurity Defense Platform (C++20 Native)"},
+                {"platform", "StackOfFifty — Modular Cybersecurity Defense Platform (C++20 Native)"},
                 {"version", "1.0.0"},
                 {"runtime", "C++20 Compiled Binary"},
                 {"uptime_seconds", uptime},
@@ -213,4 +213,4 @@ private:
     std::chrono::system_clock::time_point start_time_;
 };
 
-} // namespace AegisCore
+} // namespace StackOfFifty

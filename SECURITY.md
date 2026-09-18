@@ -1,10 +1,10 @@
 # Security Policy
 
 ## Defensive Mandate
-AegisCore is strictly designed as a defensive cybersecurity, telemetry, monitoring, and compliance platform. The generation, integration, or distribution of offensive payloads, keyloggers, rootkits, kernel backdoors, or weaponized exploits is fundamentally prohibited by design and architecture.
+StackOfFifty is strictly designed as a defensive cybersecurity, telemetry, monitoring, and compliance platform. The generation, integration, or distribution of offensive payloads, keyloggers, rootkits, kernel backdoors, or weaponized exploits is fundamentally prohibited by design and architecture.
 
 ## Reporting a Vulnerability
-If you discover a security vulnerability within AegisCore, please send an advisory report to `security@aegiscore.local`.
+If you discover a security vulnerability within StackOfFifty, please send an advisory report to `security@stackoffifty.local`.
 
 All security vulnerabilities will be promptly evaluated and addressed.
 

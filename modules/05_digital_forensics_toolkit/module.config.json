@@ -5,7 +5,7 @@
   "description": "Parses disk timestamps, Master File Table records, and memory artifact baselines",
   "category": "Forensics & Reverse Engineering",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "researcher",
   "entry_point": "modules.05_digital_forensics_toolkit.main",

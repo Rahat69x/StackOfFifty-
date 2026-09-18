@@ -23,7 +23,7 @@ class MFAGuardEngine:
         """Generate TOTP secret and QR provisioning URI."""
         totp_secret = secret or pyotp.random_base32()
         totp = pyotp.TOTP(totp_secret)
-        uri = totp.provisioning_uri(name=user_identifier, issuer_name="AegisCore Platform")
+        uri = totp.provisioning_uri(name=user_identifier, issuer_name="StackOfFifty Platform")
         return {"secret": totp_secret, "provisioning_uri": uri}
 
     def verify_totp(self, user_identifier: str, secret: str, token: str) -> Dict[str, Any]:

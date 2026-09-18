@@ -5,7 +5,7 @@
   "description": "Scans firmware binaries for embedded private keys, hardcoded credentials, and known CVEs",
   "category": "Forensics & Reverse Engineering",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.40_firmware_binwalk_analyzer.main",

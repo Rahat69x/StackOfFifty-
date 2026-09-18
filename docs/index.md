@@ -1,6 +1,6 @@
-# AegisCore Platform Overview
+# StackOfFifty Platform Overview
 
-**AegisCore** is an enterprise-grade cybersecurity defense and telemetry operations platform. It unifies 50 independent cybersecurity modules across 12 logical categories into a single control plane.
+**StackOfFifty** is an enterprise-grade cybersecurity defense and telemetry operations platform. It unifies 50 independent cybersecurity modules across 12 logical categories into a single control plane.
 
 ## Key Principles
 1. **Modularity**: Every module extends `BaseModule` and functions independently.

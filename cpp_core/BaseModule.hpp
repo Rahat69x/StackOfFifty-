@@ -6,7 +6,7 @@
 #include "Logger.hpp"
 #include "EventBus.hpp"
 
-namespace AegisCore {
+namespace StackOfFifty {
 
 class BaseModule {
 public:
@@ -80,4 +80,4 @@ public:
     }
 };
 
-} // namespace AegisCore
+} // namespace StackOfFifty

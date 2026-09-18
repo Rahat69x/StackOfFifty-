@@ -22,7 +22,7 @@ def generate_header():
     lines.append('#include <vector>')
     lines.append('#include <cmath>')
     lines.append('')
-    lines.append('namespace AegisCore {')
+    lines.append('namespace StackOfFifty {')
     lines.append('')
 
     for item in MODULE_DEFINITIONS:
@@ -147,7 +147,7 @@ def generate_header():
 
     lines.append('}')
     lines.append('')
-    lines.append('} // namespace AegisCore')
+    lines.append('} // namespace StackOfFifty')
 
     with open(out_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))

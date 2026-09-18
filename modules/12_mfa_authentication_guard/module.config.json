@@ -5,7 +5,7 @@
   "description": "Validates RFC 6238 TOTP codes, enforces MFA policies, and protects against brute-force",
   "category": "Cryptography & Auth",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "viewer",
   "entry_point": "modules.12_mfa_authentication_guard.main",

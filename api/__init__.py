@@ -1,3 +1,3 @@
 """
-AegisCore API Layer.
+StackOfFifty API Layer.
 """

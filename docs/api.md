@@ -1,6 +1,6 @@
 # API Reference
 
-The AegisCore REST API adheres to a standardized contract across all modules.
+The StackOfFifty REST API adheres to a standardized contract across all modules.
 
 ## Module Control
 - `POST /api/modules/{id}/start`: Start module execution.

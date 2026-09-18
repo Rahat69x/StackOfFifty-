@@ -1,6 +1,6 @@
-site_name: AegisCore Documentation
+site_name: StackOfFifty Documentation
 site_description: Modular Cybersecurity Defense & Operations Platform
-site_author: AegisCore SecOps
+site_author: StackOfFifty SecOps
 
 theme:
   name: material

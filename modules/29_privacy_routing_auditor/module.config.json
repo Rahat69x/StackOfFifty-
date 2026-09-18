@@ -5,7 +5,7 @@
   "description": "Audits workstation routing tables for IPv6, DNS, and WebRTC telemetry leakage",
   "category": "Privacy & Anonymity",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "researcher",
   "entry_point": "modules.29_privacy_routing_auditor.main",

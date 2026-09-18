@@ -20,7 +20,7 @@ from core.module_registry import ModuleRegistry
 
 async def run_live_test():
     print("=" * 80)
-    print("          AEGISCORE PLATFORM -- LIVE COMPREHENSIVE TEST SUITE          ")
+    print("          STACKOFFIFTY PLATFORM -- LIVE COMPREHENSIVE TEST SUITE          ")
     print("=" * 80)
     print(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Python Version: {sys.version.split()[0]}")

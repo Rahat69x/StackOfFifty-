@@ -1,5 +1,5 @@
 """
-FastAPI Routers for AegisCore.
+FastAPI Routers for StackOfFifty.
 """
 from api.routers.modules import router as modules_router
 from api.routers.auth import router as auth_router

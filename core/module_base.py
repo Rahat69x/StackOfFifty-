@@ -1,5 +1,5 @@
 """
-Abstract BaseModule class: all 50 AegisCore modules extend this class.
+Abstract BaseModule class: all 50 StackOfFifty modules extend this class.
 """
 from abc import ABC, abstractmethod
 from typing import Dict, Any, List

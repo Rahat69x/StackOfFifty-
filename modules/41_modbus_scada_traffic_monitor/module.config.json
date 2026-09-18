@@ -5,7 +5,7 @@
   "description": "Deep inspection of Modbus TCP and DNP3 industrial automation network packet payloads",
   "category": "IoT & ICS Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.41_modbus_scada_traffic_monitor.main",

@@ -11,7 +11,7 @@
 #include <filesystem>
 #include "include/nlohmann/json.hpp"
 
-namespace AegisCore {
+namespace StackOfFifty {
 
 class Logger {
 public:
@@ -73,7 +73,7 @@ private:
         try {
             std::filesystem::create_directories("logs");
         } catch (...) {}
-        file_out_.open("logs/aegiscore_cpp.log", std::ios::app);
+        file_out_.open("logs/stackoffifty_cpp.log", std::ios::app);
     }
     ~Logger() {
         if (file_out_.is_open()) file_out_.close();
@@ -86,4 +86,4 @@ private:
     std::ofstream file_out_;
 };
 
-} // namespace AegisCore
+} // namespace StackOfFifty

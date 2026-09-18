@@ -1,5 +1,5 @@
 """
-Authentication endpoints for AegisCore.
+Authentication endpoints for StackOfFifty.
 """
 from fastapi import APIRouter, HTTPException, Depends, status
 from sqlalchemy.orm import Session

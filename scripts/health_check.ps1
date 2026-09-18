@@ -1,4 +1,4 @@
-# AegisCore Windows PowerShell Health Check Script
+# StackOfFifty Windows PowerShell Health Check Script
 $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
 $rootPath = Split-Path -Parent $scriptPath
 Set-Location $rootPath

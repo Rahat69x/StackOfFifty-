@@ -5,7 +5,7 @@
   "description": "Applies statistical Z-score baseline modeling on authentication frequency and egress bandwidth",
   "category": "AI/ML Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "researcher",
   "entry_point": "modules.19_behavioral_anomaly_detector.main",

@@ -5,7 +5,7 @@
   "description": "Evaluates enterprise credential hash resilience against modern GPU cracking clusters",
   "category": "Advanced Research",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.25_hash_entropy_gpu_auditor.main",

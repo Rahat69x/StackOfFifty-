@@ -5,7 +5,7 @@
   "description": "Automates verification, sandbox isolation networks, and sensor provisioning",
   "category": "Infrastructure",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.06_lab_environment_orchestrator.main",

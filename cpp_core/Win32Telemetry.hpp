@@ -10,7 +10,7 @@
 #include <string>
 #include "include/nlohmann/json.hpp"
 
-namespace AegisCore {
+namespace StackOfFifty {
 
 class Win32Telemetry {
 public:
@@ -96,4 +96,4 @@ public:
     }
 };
 
-} // namespace AegisCore
+} // namespace StackOfFifty

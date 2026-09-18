@@ -5,7 +5,7 @@
   "description": "Analyzes NetFlow and IPFIX telemetry using Isolation Forest to identify exfiltration",
   "category": "AI/ML Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.28_ml_network_ids_engine.main",

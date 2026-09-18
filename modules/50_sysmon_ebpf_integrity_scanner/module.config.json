@@ -5,7 +5,7 @@
   "description": "Monitors Windows Sysmon and Linux auditd telemetry pipelines for tampering or log dropping",
   "category": "System & Kernel Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.50_sysmon_ebpf_integrity_scanner.main",

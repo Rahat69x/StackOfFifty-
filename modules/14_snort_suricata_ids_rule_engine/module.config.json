@@ -5,7 +5,7 @@
   "description": "Parses and validates Snort and Suricata network intrusion signature rules for syntax and coverage",
   "category": "Network Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.14_snort_suricata_ids_rule_engine.main",

@@ -5,7 +5,7 @@
   "description": "EDR-style process tree and execution monitor for insider-threat and anomaly detection",
   "category": "System & Kernel Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.04_endpoint_activity_monitor.main",

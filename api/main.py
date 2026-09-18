@@ -1,5 +1,5 @@
 """
-AegisCore - Central FastAPI Backend Application Entry Point.
+StackOfFifty - Central FastAPI Backend Application Entry Point.
 """
 import os
 import secrets
@@ -34,7 +34,7 @@ def seed_initial_admin():
         admin_user = db.query(User).filter(User.role == "admin").first()
         if not admin_user:
             username = os.environ.get("ADMIN_SEED_USERNAME", "admin").strip()
-            email = os.environ.get("ADMIN_SEED_EMAIL", "admin@aegiscore.local").strip()
+            email = os.environ.get("ADMIN_SEED_EMAIL", "admin@stackoffifty.local").strip()
             password = os.environ.get("ADMIN_SEED_PASSWORD", "").strip()
 
             if not password:
@@ -57,7 +57,7 @@ def seed_initial_admin():
 
             # Seed an initial welcome alert
             welcome_alert = Alert(
-                title="AegisCore Platform Initialized",
+                title="StackOfFifty Platform Initialized",
                 description="Core framework services and defensive module registry loaded successfully.",
                 severity="info",
                 resolved=False
@@ -100,7 +100,7 @@ def attach_event_listeners():
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup
-    logger.info("Initializing AegisCore Cybersecurity Platform...")
+    logger.info("Initializing StackOfFifty Cybersecurity Platform...")
     init_db()
     seed_initial_admin()
     attach_event_listeners()
@@ -113,11 +113,11 @@ async def lifespan(app: FastAPI):
         if hasattr(mod, "api_router") and mod.api_router:
             app.include_router(mod.api_router, prefix="/api/modules/custom")
 
-    logger.info("AegisCore backend ready to service requests.")
+    logger.info("StackOfFifty backend ready to service requests.")
     yield
 
     # Shutdown
-    logger.info("Shutting down AegisCore platform...")
+    logger.info("Shutting down StackOfFifty platform...")
     for mod_id, mod in list(module_registry.modules.items()):
         try:
             await mod.stop()
@@ -127,7 +127,7 @@ async def lifespan(app: FastAPI):
 platform_info = config_loader.get_config().get("platform", {})
 
 app = FastAPI(
-    title=platform_info.get("name", "AegisCore"),
+    title=platform_info.get("name", "StackOfFifty"),
     description=platform_info.get("description", "Unified Defensive Cybersecurity Platform"),
     version=platform_info.get("version", "1.0.0"),
     lifespan=lifespan
@@ -163,10 +163,11 @@ async def platform_health():
     loaded_modules = len(module_registry.modules)
     total_configured = len(config_loader.get_config().get("modules", []))
 
+    active_platform = config_loader.get_config().get("platform", {})
     return {
         "status": "healthy",
-        "platform": platform_info.get("display_name", "AegisCore"),
-        "version": platform_info.get("version", "1.0.0"),
+        "platform": active_platform.get("display_name", "StackOfFifty"),
+        "version": active_platform.get("version", "1.0.0"),
         "uptime_seconds": uptime_seconds,
         "system": {
             "cpu_usage_percent": cpu_percent,

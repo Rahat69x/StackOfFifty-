@@ -1,5 +1,5 @@
 """
-Dynamic module loader, hot-reloader, and lifecycle catalog for AegisCore.
+Dynamic module loader, hot-reloader, and lifecycle catalog for StackOfFifty.
 """
 import importlib
 import json

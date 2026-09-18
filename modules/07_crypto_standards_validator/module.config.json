@@ -5,7 +5,7 @@
   "description": "Audits cryptographic algorithms against NIST SP 800-131A and FIPS 140-3 guidelines",
   "category": "Cryptography & Auth",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "viewer",
   "entry_point": "modules.07_crypto_standards_validator.main",

@@ -5,7 +5,7 @@
   "description": "Audits Double Ratchet and Signal Protocol forward-secrecy implementation parameters",
   "category": "Cryptography & Auth",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "viewer",
   "entry_point": "modules.34_e2ee_messaging_audit_core.main",

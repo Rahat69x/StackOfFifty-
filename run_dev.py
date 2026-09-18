@@ -1,5 +1,5 @@
 """
-AegisCore - Unified Local Dev Process Launcher
+StackOfFifty - Unified Local Dev Process Launcher
 Spawns both the FastAPI backend and Next.js dashboard concurrently.
 """
 import subprocess
@@ -12,7 +12,7 @@ root_dir = Path(__file__).resolve().parent
 
 def main():
     print("=" * 55)
-    print("       AegisCore Cybersecurity Platform Launcher       ")
+    print("       StackOfFifty Cybersecurity Platform Launcher       ")
     print("=" * 55)
 
     print("\n[1/2] Starting FastAPI Backend (Port 8000)...")
@@ -31,7 +31,7 @@ def main():
         cwd=str(dashboard_dir)
     )
 
-    print("\n[+] AegisCore services running!")
+    print("\n[+] StackOfFifty services running!")
     print("    - Backend API: http://localhost:8000/docs")
     print("    - SOC Dashboard: http://localhost:3000")
     print("\nPress Ctrl+C to stop all services.")
@@ -41,7 +41,7 @@ def main():
         api_proc.wait()
         dashboard_proc.wait()
     except KeyboardInterrupt:
-        print("\nStopping AegisCore services...")
+        print("\nStopping StackOfFifty services...")
         api_proc.terminate()
         dashboard_proc.terminate()
         print("All services stopped.")

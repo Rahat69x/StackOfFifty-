@@ -9,7 +9,7 @@ def test_config_loader_reads_platform_config():
     loader = ConfigLoader("platform.config.json")
     cfg = loader.get_config()
     assert "platform" in cfg
-    assert cfg["platform"]["name"] == "AegisCore"
+    assert cfg["platform"]["name"] == "StackOfFifty"
     assert "modules" in cfg
     assert len(cfg["modules"]) >= 50
 

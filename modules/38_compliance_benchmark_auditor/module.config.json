@@ -5,7 +5,7 @@
   "description": "Automates validation of CIS Benchmarks and NIST SP 800-53 security controls",
   "category": "Web & App Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "researcher",
   "entry_point": "modules.38_compliance_benchmark_auditor.main",

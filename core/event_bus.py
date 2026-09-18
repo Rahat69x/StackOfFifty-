@@ -1,5 +1,5 @@
 """
-Dual-mode event bus for AegisCore: Redis Pub/Sub with automatic in-memory fallback.
+Dual-mode event bus for StackOfFifty: Redis Pub/Sub with automatic in-memory fallback.
 """
 import asyncio
 import json

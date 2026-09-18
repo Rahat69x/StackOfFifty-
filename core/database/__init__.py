@@ -1,5 +1,5 @@
 """
-Database package for AegisCore.
+Database package for StackOfFifty.
 """
 from core.database.connection import get_db, init_db, engine, SessionLocal
 from core.database.models import (

@@ -15,7 +15,7 @@ class DigitalForensicsToolkitEngine:
     async def stop(self):
         self.is_running = False
 
-    def inspect_file_integrity(self, file_path: str = "aegiscore.db"):
+    def inspect_file_integrity(self, file_path: str = "stackoffifty.db"):
         import os, hashlib
         if os.path.exists(file_path):
             stat = os.stat(file_path)

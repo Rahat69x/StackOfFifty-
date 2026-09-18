@@ -1,5 +1,5 @@
 """
-Centralized structured logger for AegisCore platform and modules.
+Centralized structured logger for StackOfFifty platform and modules.
 """
 import logging
 import os
@@ -35,12 +35,12 @@ class AegisLoggerAdapter(logging.LoggerAdapter):
     def get_recent(self, limit: int = 100) -> List[Dict[str, Any]]:
         """Return the most recent logs for this module or all modules if empty."""
         logs = list(_LOG_BUFFER)
-        if self.module_name and self.module_name != "aegiscore":
+        if self.module_name and self.module_name != "stackoffifty":
             filtered = [entry for entry in logs if entry.get("module") == self.module_name]
             return filtered[-limit:]
         return logs[-limit:]
 
-def get_logger(name: str = "aegiscore") -> AegisLoggerAdapter:
+def get_logger(name: str = "stackoffifty") -> AegisLoggerAdapter:
     """Obtain or initialize a structured logger with console, file, and buffer outputs."""
     raw_logger = logging.getLogger(name)
     raw_logger.setLevel(logging.INFO)
@@ -61,11 +61,11 @@ def get_logger(name: str = "aegiscore") -> AegisLoggerAdapter:
         buf_handler.setFormatter(formatter)
         raw_logger.addHandler(buf_handler)
 
-        # File Handler (logs/aegiscore.log)
+        # File Handler (logs/stackoffifty.log)
         try:
             log_dir = os.path.abspath("./logs")
             os.makedirs(log_dir, exist_ok=True)
-            file_handler = logging.FileHandler(os.path.join(log_dir, "aegiscore.log"), encoding="utf-8")
+            file_handler = logging.FileHandler(os.path.join(log_dir, "stackoffifty.log"), encoding="utf-8")
             file_handler.setFormatter(formatter)
             raw_logger.addHandler(file_handler)
         except Exception:

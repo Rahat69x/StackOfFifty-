@@ -1,6 +1,6 @@
 # Deployment Guide
 
-AegisCore supports dual deployment pathways: local standalone execution and Docker container orchestration.
+StackOfFifty supports dual deployment pathways: local standalone execution and Docker container orchestration.
 
 ## 1. Local Development (Zero-Config)
 ```bash

@@ -5,7 +5,7 @@
   "description": "Orchestrates defensive firewall policies, evaluates ACL rules, and detects shadow conflicts",
   "category": "Network Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.11_firewall_policy_manager.main",

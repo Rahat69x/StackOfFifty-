@@ -15,7 +15,7 @@ class CredentialLeakMonitorEngine:
     async def stop(self):
         self.is_running = False
 
-    def check_domain_exposure(self, domain: str = "aegiscore.local"):
+    def check_domain_exposure(self, domain: str = "stackoffifty.local"):
         return {"domain": domain, "exposed_accounts_found": 0, "last_scan": "2026-09-14T00:00:00Z"}
 
     def get_summary(self) -> Dict[str, Any]:

@@ -37,7 +37,7 @@ export default function Sidebar() {
         </div>
         <div>
           <h1 className="text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
-            AegisCore
+            StackOfFifty
             <span className="text-[10px] uppercase font-semibold px-1.5 py-0.5 bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 rounded">
               DEFENSE
             </span>

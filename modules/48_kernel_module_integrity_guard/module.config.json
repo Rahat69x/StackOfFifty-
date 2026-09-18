@@ -5,7 +5,7 @@
   "description": "Audits signed kernel drivers and verifies Linux kernel module integrity",
   "category": "System & Kernel Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.48_kernel_module_integrity_guard.main",

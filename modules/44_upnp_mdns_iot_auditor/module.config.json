@@ -5,7 +5,7 @@
   "description": "Discovers and evaluates IoT devices exposing UPnP ports or advertising vulnerable mDNS services",
   "category": "IoT & ICS Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "researcher",
   "entry_point": "modules.44_upnp_mdns_iot_auditor.main",

@@ -1,5 +1,5 @@
 /**
- * Client-side API client for AegisCore backend.
+ * Client-side API client for StackOfFifty backend.
  */
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';

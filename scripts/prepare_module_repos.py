@@ -1,5 +1,5 @@
 """
-Automation script to audit, test, document, and prepare all 50+ AegisCore defensive modules
+Automation script to audit, test, document, and prepare all 50+ StackOfFifty defensive modules
 as standalone, push-ready GitHub repositories.
 """
 import os
@@ -161,7 +161,7 @@ Thumbs.db
 
 LICENSE_CONTENT = '''MIT License
 
-Copyright (c) 2026 AegisCore SecOps
+Copyright (c) 2026 StackOfFifty SecOps
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

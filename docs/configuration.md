@@ -1,6 +1,6 @@
 # Zero-Code Configuration
 
-AegisCore adheres to the rule: **one config file change = the entire platform reflects it at runtime. No code edits. No rebuilds.**
+StackOfFifty adheres to the rule: **one config file change = the entire platform reflects it at runtime. No code edits. No rebuilds.**
 
 ## What to Change and How
 

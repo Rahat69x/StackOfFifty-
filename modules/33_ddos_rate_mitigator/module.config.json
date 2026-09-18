@@ -5,7 +5,7 @@
   "description": "Detects SYN flood and UDP amplification anomalies, applying token-bucket mitigation",
   "category": "Network Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.33_ddos_rate_mitigator.main",

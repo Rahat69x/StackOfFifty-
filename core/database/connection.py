@@ -17,12 +17,12 @@ def get_database_url() -> str:
         user = os.environ.get("DB_USER", "aegis_user")
         password = os.environ.get("DB_PASSWORD", "aegis_secure_password")
         port = os.environ.get("DB_PORT", "5432")
-        db_name = os.environ.get("DB_NAME", "aegiscore")
+        db_name = os.environ.get("DB_NAME", "stackoffifty")
         url = f"postgresql://{user}:{password}@{db_host}:{port}/{db_name}"
         logger.info(f"Using PostgreSQL database connection on {db_host}:{port}")
         return url
 
-    sqlite_path = os.environ.get("DB_SQLITE_PATH", "aegiscore.db")
+    sqlite_path = os.environ.get("DB_SQLITE_PATH", "stackoffifty.db")
     logger.info(f"Using local SQLite fallback database at {sqlite_path}")
     return f"sqlite:///{sqlite_path}"
 

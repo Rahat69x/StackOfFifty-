@@ -1,5 +1,5 @@
 """
-First-time platform setup and bootstrapper for AegisCore.
+First-time platform setup and bootstrapper for StackOfFifty.
 """
 import os
 import sys
@@ -20,7 +20,7 @@ logger = get_logger("setup")
 
 def run_setup(interactive: bool = True):
     print("\n=======================================================")
-    print("      AegisCore Cybersecurity Platform Setup           ")
+    print("      StackOfFifty Cybersecurity Platform Setup           ")
     print("=======================================================\n")
 
     print("[*] Verifying master configuration...")
@@ -41,7 +41,7 @@ def run_setup(interactive: bool = True):
             print(f"    Existing admin account found: '{existing_admin.username}'")
         else:
             username = os.environ.get("ADMIN_SEED_USERNAME", "admin").strip()
-            email = os.environ.get("ADMIN_SEED_EMAIL", "admin@aegiscore.local").strip()
+            email = os.environ.get("ADMIN_SEED_EMAIL", "admin@stackoffifty.local").strip()
             password = os.environ.get("ADMIN_SEED_PASSWORD", "").strip()
 
             if not password and interactive and sys.stdin.isatty():

@@ -100,7 +100,7 @@ MODULE_DEFINITIONS = [
         "tags": ["forensics", "mft", "timestomp", "dfir"],
         "class_name": "DigitalForensicsToolkitEngine",
         "logic": """
-    def inspect_file_integrity(self, file_path: str = "aegiscore.db"):
+    def inspect_file_integrity(self, file_path: str = "stackoffifty.db"):
         import os, hashlib
         if os.path.exists(file_path):
             stat = os.stat(file_path)
@@ -374,7 +374,7 @@ MODULE_DEFINITIONS = [
         "tags": ["mtls", "tls", "certificates", "zero-trust"],
         "class_name": "MTLSEnforcementGatewayEngine",
         "logic": """
-    def verify_client_cert(self, cert_subject: str = "CN=sensor-node-01.aegiscore.local"):
+    def verify_client_cert(self, cert_subject: str = "CN=sensor-node-01.stackoffifty.local"):
         return {"subject": cert_subject, "trusted_root": True, "cipher_suite": "TLS_AES_256_GCM_SHA384", "status": "authenticated"}
 """
     },
@@ -553,7 +553,7 @@ MODULE_DEFINITIONS = [
         "tags": ["breach", "credentials", "leaks", "monitoring"],
         "class_name": "CredentialLeakMonitorEngine",
         "logic": """
-    def check_domain_exposure(self, domain: str = "aegiscore.local"):
+    def check_domain_exposure(self, domain: str = "stackoffifty.local"):
         return {"domain": domain, "exposed_accounts_found": 0, "last_scan": "2026-09-14T00:00:00Z"}
 """
     },
@@ -875,7 +875,7 @@ def generate():
             "description": item["desc"],
             "category": item["category"],
             "version": "1.0.0",
-            "author": "AegisCore SecOps",
+            "author": "StackOfFifty SecOps",
             "status": "enabled",
             "permission_level": item["perm"],
             "entry_point": f"modules.{folder_name}.main",

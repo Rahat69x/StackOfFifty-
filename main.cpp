@@ -1,5 +1,5 @@
 /**
- * AegisCore — Modular Cybersecurity Defense & Operations Platform
+ * StackOfFifty — Modular Cybersecurity Defense & Operations Platform
  * Native C++20 Platform Server Entry Point
  */
 #include <iostream>
@@ -10,12 +10,12 @@
 #include "cpp_modules/AllModules.hpp"
 #include "cpp_api/Server.hpp"
 
-using namespace AegisCore;
+using namespace StackOfFifty;
 
 ApiServer* g_server = nullptr;
 
 void signalHandler(int signum) {
-    Logger::getInstance().info("main", "Received shutdown signal (" + std::to_string(signum) + "). Stopping AegisCore...");
+    Logger::getInstance().info("main", "Received shutdown signal (" + std::to_string(signum) + "). Stopping StackOfFifty...");
     if (g_server) {
         g_server->stop();
     }
@@ -27,18 +27,18 @@ int main(int argc, char* argv[]) {
 
     std::cout << R"(
 ================================================================================
-          AEGISCORE — NATIVE C++20 CYBERSECURITY DEFENSE PLATFORM
+          STACKOFFIFTY — NATIVE C++20 CYBERSECURITY DEFENSE PLATFORM
                 100% Native Compiled Blue Team & SOC Engine
 ================================================================================
 )" << std::endl;
 
     auto& logger = Logger::getInstance();
-    logger.info("main", "Booting AegisCore C++20 Native Engine...");
+    logger.info("main", "Booting StackOfFifty C++20 Native Engine...");
 
     // 1. Load Master Configuration
     auto& configLoader = ConfigLoader::getInstance();
     auto master_cfg = configLoader.getConfig();
-    logger.info("main", "Loaded platform configuration: " + configLoader.getPlatformInfo().value("display_name", "AegisCore"));
+    logger.info("main", "Loaded platform configuration: " + configLoader.getPlatformInfo().value("display_name", "StackOfFifty"));
 
     // 2. Register all 50 C++ Defensive Modules
     logger.info("main", "Registering 50 native C++ cybersecurity modules...");
@@ -69,7 +69,7 @@ int main(int argc, char* argv[]) {
     // Graceful cleanup
     logger.info("main", "Stopping all active C++ modules...");
     registry.stopAll();
-    logger.info("main", "AegisCore C++ Platform terminated gracefully.");
+    logger.info("main", "StackOfFifty C++ Platform terminated gracefully.");
 
     return 0;
 }

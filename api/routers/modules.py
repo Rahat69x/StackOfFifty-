@@ -1,5 +1,5 @@
 """
-Module control and management endpoints for AegisCore.
+Module control and management endpoints for StackOfFifty.
 """
 from fastapi import APIRouter, HTTPException, Depends, Query, status
 from typing import List, Dict, Any, Optional

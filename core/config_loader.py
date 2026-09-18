@@ -1,5 +1,5 @@
 """
-Configuration loader for AegisCore master and module-specific configurations.
+Configuration loader for StackOfFifty master and module-specific configurations.
 """
 import json
 import os
@@ -43,7 +43,7 @@ class ConfigLoader:
         if not self._config_path.exists():
             # Fallback to default structure
             self._config = {
-                "platform": {"name": "AegisCore", "version": "1.0.0"},
+                "platform": {"name": "StackOfFifty", "version": "1.0.0"},
                 "modules": []
             }
             return self._config

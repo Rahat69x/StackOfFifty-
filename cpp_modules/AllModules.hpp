@@ -6,7 +6,7 @@
 #include <vector>
 #include <cmath>
 
-namespace AegisCore {
+namespace StackOfFifty {
 
 // -----------------------------------------------------------------------------
 // Module 01: Honeypot Deception Sensor (mod_001)
@@ -2176,4 +2176,4 @@ inline void registerAllModules(const nlohmann::json& master_cfg) {
     reg.registerModule(std::make_unique<SysmonEBPFIntegrityScannerEngine>(cfg_map.count("mod_050") ? cfg_map["mod_050"] : nlohmann::json{"id", "mod_050"}));
 }
 
-} // namespace AegisCore
+} // namespace StackOfFifty

@@ -10,7 +10,7 @@
 #include <iomanip>
 #include "include/nlohmann/json.hpp"
 
-namespace AegisCore {
+namespace StackOfFifty {
 
 class EventBus {
 public:
@@ -84,4 +84,4 @@ private:
     std::deque<nlohmann::json> event_history_;
 };
 
-} // namespace AegisCore
+} // namespace StackOfFifty

@@ -1,6 +1,6 @@
 # Renaming & Customization
 
-AegisCore requires zero code changes to rebrand or rename platform components.
+StackOfFifty requires zero code changes to rebrand or rename platform components.
 
 ## Renaming the Platform
 Open `platform.config.json` and modify:

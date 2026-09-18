@@ -5,7 +5,7 @@
 #include "include/nlohmann/json.hpp"
 #include "Logger.hpp"
 
-namespace AegisCore {
+namespace StackOfFifty {
 
 class ConfigLoader {
 public:
@@ -39,7 +39,7 @@ public:
         if (config_.contains("platform")) {
             return config_["platform"];
         }
-        return {{"name", "AegisCore"}, {"version", "1.0.0"}};
+        return {{"name", "StackOfFifty"}, {"version", "1.0.0"}};
     }
 
     nlohmann::json getCategories() const {
@@ -68,4 +68,4 @@ private:
     nlohmann::json config_;
 };
 
-} // namespace AegisCore
+} // namespace StackOfFifty

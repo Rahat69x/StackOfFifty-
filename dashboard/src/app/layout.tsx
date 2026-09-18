@@ -2,7 +2,7 @@ import './globals.css';
 import Sidebar from '@/components/Sidebar';
 
 export const metadata = {
-  title: 'AegisCore — Cybersecurity Defense & Operations Platform',
+  title: 'StackOfFifty — Cybersecurity Defense & Operations Platform',
   description: 'Enterprise modular Blue Team cybersecurity telemetry, detection, and compliance framework',
 };
 

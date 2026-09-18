@@ -4,9 +4,9 @@ services:
   postgres:
     image: postgres:15-alpine
     environment:
-      POSTGRES_DB: aegiscore
-      POSTGRES_USER: aegis_user
-      POSTGRES_PASSWORD: aegis_secure_password
+      POSTGRES_DB: stackoffifty
+      POSTGRES_USER: stackoffifty_user
+      POSTGRES_PASSWORD: stackoffifty_secure_password
     volumes:
       - postgres_dev_data:/var/lib/postgresql/data
     ports:

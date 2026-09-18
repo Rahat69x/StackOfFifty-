@@ -5,7 +5,7 @@
   "description": "Correlates CVE identifiers with MITRE ATT&CK enterprise tactics, techniques, and procedures (TTPs)",
   "category": "Advanced Research",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.36_cve_mitre_vuln_correlator.main",

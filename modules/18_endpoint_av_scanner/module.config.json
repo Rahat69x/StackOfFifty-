@@ -5,7 +5,7 @@
   "description": "Monitors filesystem integrity, evaluates heuristic entropy, and checks executable permissions",
   "category": "Malware & Analysis",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "viewer",
   "entry_point": "modules.18_endpoint_av_scanner.main",

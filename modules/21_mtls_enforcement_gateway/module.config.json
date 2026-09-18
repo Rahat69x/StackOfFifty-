@@ -5,7 +5,7 @@
   "description": "Enforces mutual TLS client certificate validation and audits cipher suite negotiation",
   "category": "Cryptography & Auth",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "researcher",
   "entry_point": "modules.21_mtls_enforcement_gateway.main",

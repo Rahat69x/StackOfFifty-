@@ -5,7 +5,7 @@
   "description": "Audits HTTP security headers (CSP, HSTS, X-Frame-Options) and detects CORS misconfigurations",
   "category": "Web & App Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "viewer",
   "entry_point": "modules.13_secure_web_bastion.main",

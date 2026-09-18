@@ -1,4 +1,4 @@
-# AegisCore Windows PowerShell Add Module Script
+# StackOfFifty Windows PowerShell Add Module Script
 param(
     [Parameter(Mandatory=$true, Position=0)]
     [string]$DisplayName,

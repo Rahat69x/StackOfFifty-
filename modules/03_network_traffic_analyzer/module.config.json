@@ -5,7 +5,7 @@
   "description": "Performs passive network interface inspection, telemetry collection, and socket auditing",
   "category": "Network Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "researcher",
   "entry_point": "modules.03_network_traffic_analyzer.main",

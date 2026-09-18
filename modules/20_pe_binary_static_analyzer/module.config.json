@@ -5,7 +5,7 @@
   "description": "Inspects PE/ELF headers, section hashes, import address tables, and suspicious API imports",
   "category": "Malware & Analysis",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.20_pe_binary_static_analyzer.main",

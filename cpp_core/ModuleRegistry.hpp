@@ -6,7 +6,7 @@
 #include "BaseModule.hpp"
 #include "Logger.hpp"
 
-namespace AegisCore {
+namespace StackOfFifty {
 
 class ModuleRegistry {
 public:
@@ -65,4 +65,4 @@ private:
     std::unordered_map<std::string, std::unique_ptr<BaseModule>> modules_;
 };
 
-} // namespace AegisCore
+} // namespace StackOfFifty

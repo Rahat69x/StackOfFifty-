@@ -5,7 +5,7 @@
   "description": "Ingests STIX/TAXII indicator feeds and matches active IOCs against platform logs",
   "category": "Threat Intelligence",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.24_threat_intel_ingestion_feed.main",

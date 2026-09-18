@@ -1,5 +1,5 @@
 """
-Module scaffolding CLI for AegisCore.
+Module scaffolding CLI for StackOfFifty.
 Enables expanding the platform with new defensive modules (51, 52, 53...)
 with zero manual configuration boilerplate.
 """
@@ -45,7 +45,7 @@ def scaffold_module(display_name: str, category: str = "Network Security", permi
         "description": f"Automated defensive analysis module for {display_name}",
         "category": category,
         "version": "1.0.0",
-        "author": "AegisCore SecOps",
+        "author": "StackOfFifty SecOps",
         "status": "enabled",
         "permission_level": permission_level,
         "entry_point": f"modules.{folder_name}.main",

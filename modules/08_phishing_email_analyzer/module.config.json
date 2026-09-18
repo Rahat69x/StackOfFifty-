@@ -5,7 +5,7 @@
   "description": "Inspects email headers, SPF/DKIM/DMARC records, homoglyphs, and URL reputations",
   "category": "Web & App Security",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "admin",
   "entry_point": "modules.08_phishing_email_analyzer.main",

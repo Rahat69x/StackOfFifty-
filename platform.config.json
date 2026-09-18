@@ -1,10 +1,10 @@
 {
   "platform": {
-    "name": "AegisCore",
-    "display_name": "AegisCore \u2014 Modular Cybersecurity Defense & Operations Platform",
+    "name": "StackOfFifty",
+    "display_name": "StackOfFifty \u2014 Modular Cybersecurity Defense & Operations Platform",
     "version": "1.0.0",
     "description": "A modular, unified cybersecurity defensive research, telemetry, and operations platform",
-    "author": "AegisCore SecOps",
+    "author": "StackOfFifty SecOps",
     "license": "MIT"
   },
   "server": {
@@ -15,7 +15,7 @@
   },
   "database": {
     "engine": "sqlite",
-    "sqlite_path": "aegiscore.db",
+    "sqlite_path": "stackoffifty.db",
     "host": "${DB_HOST}",
     "port": 5432,
     "name": "${DB_NAME}",

@@ -1,5 +1,5 @@
 """
-JWT handling and bcrypt password hashing for AegisCore authentication.
+JWT handling and bcrypt password hashing for StackOfFifty authentication.
 """
 import os
 import secrets
@@ -8,7 +8,7 @@ from typing import Dict, Any, Optional
 import jwt
 import bcrypt
 
-SECRET_KEY = os.environ.get("SECRET_KEY", "aegiscore_development_secret_key_change_in_prod_9482710398")
+SECRET_KEY = os.environ.get("SECRET_KEY", "stackoffifty_development_secret_key_change_in_prod_9482710398")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 15
 REFRESH_TOKEN_EXPIRE_DAYS = 7

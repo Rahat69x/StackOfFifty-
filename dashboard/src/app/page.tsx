@@ -43,7 +43,7 @@ export default function OverviewPage() {
             </span>
           </div>
           <h1 className="text-3xl font-extrabold text-white tracking-tight">
-            AegisCore Platform
+            StackOfFifty Platform
           </h1>
           <p className="text-sm text-zinc-400 mt-1">
             Modular Cybersecurity Defense & Operations Framework — Phase 1 Active

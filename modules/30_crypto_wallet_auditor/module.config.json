@@ -5,7 +5,7 @@
   "description": "Audits BIP-39 / BIP-44 key derivation parameters and evaluates hardware enclave isolation",
   "category": "Cryptography & Auth",
   "version": "1.0.0",
-  "author": "AegisCore SecOps",
+  "author": "StackOfFifty SecOps",
   "status": "enabled",
   "permission_level": "researcher",
   "entry_point": "modules.30_crypto_wallet_auditor.main",

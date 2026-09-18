@@ -1,5 +1,5 @@
 """
-Diagnostic and platform health check CLI for AegisCore.
+Diagnostic and platform health check CLI for StackOfFifty.
 """
 import sys
 import psutil
@@ -16,7 +16,7 @@ from core.event_bus import event_bus
 
 def run_health_check():
     print("\n=======================================================")
-    print("      AegisCore Platform Diagnostic Health Check       ")
+    print("      StackOfFifty Platform Diagnostic Health Check       ")
     print("=======================================================\n")
 
     errors = 0
