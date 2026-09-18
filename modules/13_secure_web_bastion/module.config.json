@@ -1,0 +1,24 @@
+{
+  "id": "mod_013",
+  "name": "secure_web_bastion",
+  "display_name": "Secure Web Bastion",
+  "description": "Audits HTTP security headers (CSP, HSTS, X-Frame-Options) and detects CORS misconfigurations",
+  "category": "Web & App Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "viewer",
+  "entry_point": "modules.13_secure_web_bastion.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "headers",
+    "csp",
+    "hsts",
+    "cors"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

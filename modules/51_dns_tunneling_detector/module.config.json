@@ -1,0 +1,23 @@
+{
+  "id": "mod_051",
+  "name": "dns_tunneling_detector",
+  "display_name": "DNS Tunneling Detector",
+  "description": "Automated defensive analysis module for DNS Tunneling Detector",
+  "category": "Network Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.51_dns_tunneling_detector.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "dns_tunneling_detector",
+    "network-security",
+    "defensive"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

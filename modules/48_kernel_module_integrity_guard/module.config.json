@@ -1,0 +1,23 @@
+{
+  "id": "mod_048",
+  "name": "kernel_module_integrity_guard",
+  "display_name": "Kernel Driver & Module Integrity Guard",
+  "description": "Audits signed kernel drivers and verifies Linux kernel module integrity",
+  "category": "System & Kernel Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.48_kernel_module_integrity_guard.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "kernel-guard",
+    "driver-signature",
+    "lkm-audit"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

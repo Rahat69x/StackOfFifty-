@@ -1,0 +1,24 @@
+{
+  "id": "mod_032",
+  "name": "credential_leak_monitor",
+  "display_name": "Credential Leak & Breach Monitor",
+  "description": "Monitors known public breach corpuses and dumps for exposed corporate email credentials",
+  "category": "Privacy & Anonymity",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.32_credential_leak_monitor.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "breach",
+    "credentials",
+    "leaks",
+    "monitoring"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mod_018",
+  "name": "endpoint_av_scanner",
+  "display_name": "Endpoint Antivirus Heuristic Scanner",
+  "description": "Monitors filesystem integrity, evaluates heuristic entropy, and checks executable permissions",
+  "category": "Malware & Analysis",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "viewer",
+  "entry_point": "modules.18_endpoint_av_scanner.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "antivirus",
+    "heuristics",
+    "entropy",
+    "integrity"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

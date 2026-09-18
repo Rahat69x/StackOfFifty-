@@ -1,0 +1,24 @@
+{
+  "id": "mod_033",
+  "name": "ddos_rate_mitigator",
+  "display_name": "DDoS Rate Mitigator & Flood Detector",
+  "description": "Detects SYN flood and UDP amplification anomalies, applying token-bucket mitigation",
+  "category": "Network Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.33_ddos_rate_mitigator.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "ddos",
+    "syn-flood",
+    "rate-limiting",
+    "mitigation"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

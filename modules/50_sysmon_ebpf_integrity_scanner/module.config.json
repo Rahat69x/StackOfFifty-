@@ -1,0 +1,24 @@
+{
+  "id": "mod_050",
+  "name": "sysmon_ebpf_integrity_scanner",
+  "display_name": "System Call & Sysmon Telemetry Integrity Scanner",
+  "description": "Monitors Windows Sysmon and Linux auditd telemetry pipelines for tampering or log dropping",
+  "category": "System & Kernel Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.50_sysmon_ebpf_integrity_scanner.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "sysmon",
+    "auditd",
+    "telemetry-integrity",
+    "edr"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

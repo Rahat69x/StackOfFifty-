@@ -1,0 +1,24 @@
+{
+  "id": "mod_024",
+  "name": "threat_intel_ingestion_feed",
+  "display_name": "Threat Intel STIX/TAXII Feed",
+  "description": "Ingests STIX/TAXII indicator feeds and matches active IOCs against platform logs",
+  "category": "Threat Intelligence",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.24_threat_intel_ingestion_feed.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "stix",
+    "taxii",
+    "ioc",
+    "threat-intel"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

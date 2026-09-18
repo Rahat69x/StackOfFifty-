@@ -1,0 +1,24 @@
+{
+  "id": "mod_046",
+  "name": "packed_code_deobfuscator",
+  "display_name": "Binary Unpacker & Heuristic Deobfuscator",
+  "description": "Analyzes obfuscated scripts (Base64, PowerShell) and identifies UPX packer layers",
+  "category": "Malware & Analysis",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.46_packed_code_deobfuscator.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "deobfuscation",
+    "packer",
+    "upx",
+    "analysis"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

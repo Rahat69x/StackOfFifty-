@@ -1,0 +1,24 @@
+{
+  "id": "mod_036",
+  "name": "cve_mitre_vuln_correlator",
+  "display_name": "MITRE ATT&CK & CVE Vulnerability Correlator",
+  "description": "Correlates CVE identifiers with MITRE ATT&CK enterprise tactics, techniques, and procedures (TTPs)",
+  "category": "Advanced Research",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.36_cve_mitre_vuln_correlator.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "mitre",
+    "attack",
+    "cve",
+    "ttps"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

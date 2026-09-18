@@ -1,0 +1,24 @@
+{
+  "id": "mod_021",
+  "name": "mtls_enforcement_gateway",
+  "display_name": "mTLS Enforcement Gateway",
+  "description": "Enforces mutual TLS client certificate validation and audits cipher suite negotiation",
+  "category": "Cryptography & Auth",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.21_mtls_enforcement_gateway.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "mtls",
+    "tls",
+    "certificates",
+    "zero-trust"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

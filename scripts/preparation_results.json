@@ -1,0 +1,410 @@
+[
+  {
+    "name": "01_honeypot_deception_sensor",
+    "display_name": "Honeypot Deception Sensor",
+    "fixes": "updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "02_password_strength_auditor",
+    "display_name": "Password Strength Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "03_network_traffic_analyzer",
+    "display_name": "Network Traffic Analyzer",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "04_endpoint_activity_monitor",
+    "display_name": "Endpoint Activity Monitor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "05_digital_forensics_toolkit",
+    "display_name": "Digital Forensics Toolkit",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "06_lab_environment_orchestrator",
+    "display_name": "Lab Environment Orchestrator",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "07_crypto_standards_validator",
+    "display_name": "Crypto Standards Validator",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "08_phishing_email_analyzer",
+    "display_name": "Phishing Email Analyzer",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "09_wireless_security_auditor",
+    "display_name": "Wireless Security Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "10_network_vulnerability_scanner",
+    "display_name": "Network Vulnerability Scanner",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "11_firewall_policy_manager",
+    "display_name": "Firewall Policy Manager",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "12_mfa_authentication_guard",
+    "display_name": "MFA Authentication Guard",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "13_secure_web_bastion",
+    "display_name": "Secure Web Bastion",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "14_snort_suricata_ids_rule_engine",
+    "display_name": "Snort / Suricata IDS Rule Engine",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "15_dast_web_scanner",
+    "display_name": "DAST Web Vulnerability Scanner",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "16_dns_poisoning_detector",
+    "display_name": "DNS Poisoning Detector",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "17_malware_signature_detector",
+    "display_name": "Malware Signature Detector (YARA)",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "18_endpoint_av_scanner",
+    "display_name": "Endpoint Antivirus Heuristic Scanner",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "19_behavioral_anomaly_detector",
+    "display_name": "Behavioral Anomaly Detection Engine",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "20_pe_binary_static_analyzer",
+    "display_name": "PE/ELF Binary Static Analyzer",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "21_mtls_enforcement_gateway",
+    "display_name": "mTLS Enforcement Gateway",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "22_epss_vulnerability_prioritizer",
+    "display_name": "EPSS Vulnerability Prioritizer",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "23_secure_encrypted_tunnel",
+    "display_name": "Secure Encrypted Tunnel",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "24_threat_intel_ingestion_feed",
+    "display_name": "Threat Intel STIX/TAXII Feed",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "25_hash_entropy_gpu_auditor",
+    "display_name": "Hash Entropy & Strength Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "26_cuckoo_sandbox_integrator",
+    "display_name": "Automated Sandbox Report Parser",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "27_fde_compliance_auditor",
+    "display_name": "Full Disk Encryption Compliance Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "28_ml_network_ids_engine",
+    "display_name": "ML NetFlow Anomaly IDS Engine",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "29_privacy_routing_auditor",
+    "display_name": "Privacy Routing & IP Leak Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "30_crypto_wallet_auditor",
+    "display_name": "Cryptographic Key Storage Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "31_rootkit_hunter_scanner",
+    "display_name": "Kernel Hook & Rootkit Hunter Scanner",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "32_credential_leak_monitor",
+    "display_name": "Credential Leak & Breach Monitor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "33_ddos_rate_mitigator",
+    "display_name": "DDoS Rate Mitigator & Flood Detector",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "34_e2ee_messaging_audit_core",
+    "display_name": "E2EE Protocol & Key Exchange Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "35_ca_certificate_manager",
+    "display_name": "Internal PKI & Certificate Manager",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "36_cve_mitre_vuln_correlator",
+    "display_name": "MITRE ATT&CK & CVE Vulnerability Correlator",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "37_smart_contract_static_analyzer",
+    "display_name": "Smart Contract Static Security Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "38_compliance_benchmark_auditor",
+    "display_name": "CIS & NIST Compliance Benchmark Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "39_ueba_insider_threat_detector",
+    "display_name": "UEBA Behavioral Threat Detector",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "40_firmware_binwalk_analyzer",
+    "display_name": "Firmware Image Static Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "41_modbus_scada_traffic_monitor",
+    "display_name": "Modbus/SCADA Traffic Protocol Monitor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "42_apt_threat_actor_matcher",
+    "display_name": "APT Threat Actor Campaign Matcher",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "43_ebpf_xdp_packet_filter",
+    "display_name": "Kernel-Level eBPF Packet Filter",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "44_upnp_mdns_iot_auditor",
+    "display_name": "IoT Device UPnP & mDNS Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "45_soc_incident_simulator",
+    "display_name": "SOC Blue Team Incident Simulator",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "46_packed_code_deobfuscator",
+    "display_name": "Binary Unpacker & Heuristic Deobfuscator",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "47_process_memory_dumper_auditor",
+    "display_name": "Process Injection & Memory Auditor",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "48_kernel_module_integrity_guard",
+    "display_name": "Kernel Driver & Module Integrity Guard",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "49_timing_leakage_analyzer",
+    "display_name": "Side-Channel Timing Leakage Analyzer",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "50_sysmon_ebpf_integrity_scanner",
+    "display_name": "System Call & Sysmon Telemetry Integrity Scanner",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  },
+  {
+    "name": "51_dns_tunneling_detector",
+    "display_name": "DNS Tunneling Detector",
+    "fixes": "added core/base.py fallback, updated main.py for standalone & runnable FastAPI app, safeguarded api/routes.py module resolution, updated tests for standalone & monorepo lifecycle validation, configured complete requirements.txt, generated root README.md, .gitignore, LICENSE, .env.example",
+    "test_status": "PASS",
+    "push_ready": "Yes",
+    "output": ""
+  }
+]

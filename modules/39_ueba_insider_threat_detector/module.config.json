@@ -1,0 +1,24 @@
+{
+  "id": "mod_039",
+  "name": "ueba_insider_threat_detector",
+  "display_name": "UEBA Behavioral Threat Detector",
+  "description": "Correlates user activity baselines to flag off-hours logins and privilege escalation spikes",
+  "category": "AI/ML Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.39_ueba_insider_threat_detector.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "ueba",
+    "insider-threat",
+    "behavioral",
+    "soc"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

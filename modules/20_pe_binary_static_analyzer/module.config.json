@@ -1,0 +1,24 @@
+{
+  "id": "mod_020",
+  "name": "pe_binary_static_analyzer",
+  "display_name": "PE/ELF Binary Static Analyzer",
+  "description": "Inspects PE/ELF headers, section hashes, import address tables, and suspicious API imports",
+  "category": "Malware & Analysis",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.20_pe_binary_static_analyzer.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "pe",
+    "elf",
+    "iat",
+    "reverse-engineering"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

@@ -1,0 +1,23 @@
+{
+  "id": "mod_007",
+  "name": "crypto_standards_validator",
+  "display_name": "Crypto Standards Validator",
+  "description": "Audits cryptographic algorithms against NIST SP 800-131A and FIPS 140-3 guidelines",
+  "category": "Cryptography & Auth",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "viewer",
+  "entry_point": "modules.07_crypto_standards_validator.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "cryptography",
+    "nist",
+    "fips"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

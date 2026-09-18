@@ -1,0 +1,24 @@
+site_name: AegisCore Documentation
+site_description: Modular Cybersecurity Defense & Operations Platform
+site_author: AegisCore SecOps
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: cyan
+    accent: teal
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Overview: index.md
+  - System Architecture: architecture.md
+  - API Reference: api.md
+  - Deployment Guide: deployment.md
+  - Configuration (Zero-Code): configuration.md
+  - Adding Modules: adding-modules.md
+  - Renaming & Customization: renaming.md

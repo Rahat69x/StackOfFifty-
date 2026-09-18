@@ -1,0 +1,24 @@
+{
+  "id": "mod_038",
+  "name": "compliance_benchmark_auditor",
+  "display_name": "CIS & NIST Compliance Benchmark Auditor",
+  "description": "Automates validation of CIS Benchmarks and NIST SP 800-53 security controls",
+  "category": "Web & App Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.38_compliance_benchmark_auditor.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "compliance",
+    "cis",
+    "nist",
+    "benchmarks"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

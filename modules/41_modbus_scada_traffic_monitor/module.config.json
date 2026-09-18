@@ -1,0 +1,24 @@
+{
+  "id": "mod_041",
+  "name": "modbus_scada_traffic_monitor",
+  "display_name": "Modbus/SCADA Traffic Protocol Monitor",
+  "description": "Deep inspection of Modbus TCP and DNP3 industrial automation network packet payloads",
+  "category": "IoT & ICS Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.41_modbus_scada_traffic_monitor.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "modbus",
+    "scada",
+    "ics",
+    "ot-security"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

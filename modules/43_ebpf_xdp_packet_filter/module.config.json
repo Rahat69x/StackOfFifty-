@@ -1,0 +1,24 @@
+{
+  "id": "mod_043",
+  "name": "ebpf_xdp_packet_filter",
+  "display_name": "Kernel-Level eBPF Packet Filter",
+  "description": "Audits eBPF program hooks and XDP packet filtering maps for high-performance defense",
+  "category": "Network Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.43_ebpf_xdp_packet_filter.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "ebpf",
+    "xdp",
+    "kernel-filter",
+    "ddos-defense"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

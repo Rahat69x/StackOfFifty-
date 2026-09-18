@@ -1,0 +1,24 @@
+{
+  "id": "mod_015",
+  "name": "dast_web_scanner",
+  "display_name": "DAST Web Vulnerability Scanner",
+  "description": "Performs passive dynamic application security audits for OWASP Top 10 indicators",
+  "category": "Web & App Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.15_dast_web_scanner.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "dast",
+    "owasp",
+    "xss",
+    "sqli-detection"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

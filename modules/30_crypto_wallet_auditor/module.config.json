@@ -1,0 +1,24 @@
+{
+  "id": "mod_030",
+  "name": "crypto_wallet_auditor",
+  "display_name": "Cryptographic Key Storage Auditor",
+  "description": "Audits BIP-39 / BIP-44 key derivation parameters and evaluates hardware enclave isolation",
+  "category": "Cryptography & Auth",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.30_crypto_wallet_auditor.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "key-storage",
+    "bip39",
+    "hsm",
+    "enclave"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

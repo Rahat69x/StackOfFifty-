@@ -1,0 +1,24 @@
+{
+  "id": "mod_006",
+  "name": "lab_environment_orchestrator",
+  "display_name": "Lab Environment Orchestrator",
+  "description": "Automates verification, sandbox isolation networks, and sensor provisioning",
+  "category": "Infrastructure",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.06_lab_environment_orchestrator.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "infrastructure",
+    "docker",
+    "orchestration",
+    "ranges"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mod_029",
+  "name": "privacy_routing_auditor",
+  "display_name": "Privacy Routing & IP Leak Auditor",
+  "description": "Audits workstation routing tables for IPv6, DNS, and WebRTC telemetry leakage",
+  "category": "Privacy & Anonymity",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.29_privacy_routing_auditor.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "privacy",
+    "dns-leak",
+    "webrtc",
+    "routing"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

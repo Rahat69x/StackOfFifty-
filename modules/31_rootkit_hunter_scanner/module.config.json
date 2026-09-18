@@ -1,0 +1,24 @@
+{
+  "id": "mod_031",
+  "name": "rootkit_hunter_scanner",
+  "display_name": "Kernel Hook & Rootkit Hunter Scanner",
+  "description": "Audits system call tables, hidden processes, and kernel module signatures for rootkit indicators",
+  "category": "Forensics & Reverse Engineering",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.31_rootkit_hunter_scanner.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "rootkit-hunter",
+    "kernel-audit",
+    "syscall",
+    "integrity"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

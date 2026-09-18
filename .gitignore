@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Database & Storage
+*.db
+*.sqlite3
+aegiscore.db
+data/
+logs/
+*.log
+
+# Node & Next.js
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+dashboard/build/
+.npm
+.eslintcache
+
+# Environment & Secrets
+.env
+*.env
+config/*.env
+.env.local
+.env.production
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Test & Coverage
+.pytest_cache/
+.coverage
+htmlcov/

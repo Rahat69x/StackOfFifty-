@@ -1,0 +1,24 @@
+{
+  "id": "mod_025",
+  "name": "hash_entropy_gpu_auditor",
+  "display_name": "Hash Entropy & Strength Auditor",
+  "description": "Evaluates enterprise credential hash resilience against modern GPU cracking clusters",
+  "category": "Advanced Research",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.25_hash_entropy_gpu_auditor.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "hash-strength",
+    "gpu-audit",
+    "argon2",
+    "bcrypt"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

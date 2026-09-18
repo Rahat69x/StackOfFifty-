@@ -1,0 +1,27 @@
+{
+  "id": "mod_001",
+  "name": "honeypot_deception_sensor",
+  "display_name": "Honeypot Deception Sensor",
+  "description": "Deploys non-intrusive decoy sensors to attract, log, and analyze unauthorized connection telemetry in a protected lab environment",
+  "category": "Threat Intelligence",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.01_honeypot_deception_sensor.main",
+  "dependencies": [],
+  "ports": [
+    8081,
+    8082,
+    8022
+  ],
+  "tags": [
+    "honeypot",
+    "deception",
+    "telemetry"
+  ],
+  "safe_mode": true,
+  "lab_only": true,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

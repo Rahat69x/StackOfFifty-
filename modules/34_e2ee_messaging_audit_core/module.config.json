@@ -1,0 +1,24 @@
+{
+  "id": "mod_034",
+  "name": "e2ee_messaging_audit_core",
+  "display_name": "E2EE Protocol & Key Exchange Auditor",
+  "description": "Audits Double Ratchet and Signal Protocol forward-secrecy implementation parameters",
+  "category": "Cryptography & Auth",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "viewer",
+  "entry_point": "modules.34_e2ee_messaging_audit_core.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "e2ee",
+    "double-ratchet",
+    "forward-secrecy",
+    "signal"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

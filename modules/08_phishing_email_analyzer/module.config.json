@@ -1,0 +1,25 @@
+{
+  "id": "mod_008",
+  "name": "phishing_email_analyzer",
+  "display_name": "Phishing Email Analyzer",
+  "description": "Inspects email headers, SPF/DKIM/DMARC records, homoglyphs, and URL reputations",
+  "category": "Web & App Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.08_phishing_email_analyzer.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "email",
+    "phishing",
+    "spf",
+    "dkim",
+    "dmarc"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

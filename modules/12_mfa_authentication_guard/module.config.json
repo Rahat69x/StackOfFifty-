@@ -1,0 +1,23 @@
+{
+  "id": "mod_012",
+  "name": "mfa_authentication_guard",
+  "display_name": "MFA Authentication Guard",
+  "description": "Validates RFC 6238 TOTP codes, enforces MFA policies, and protects against brute-force",
+  "category": "Cryptography & Auth",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "viewer",
+  "entry_point": "modules.12_mfa_authentication_guard.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "mfa",
+    "totp",
+    "zero-trust"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

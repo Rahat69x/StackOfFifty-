@@ -1,0 +1,24 @@
+{
+  "id": "mod_002",
+  "name": "password_strength_auditor",
+  "display_name": "Password Strength Auditor",
+  "description": "Audits enterprise password complexity, entropy scores, and common dictionary exposure",
+  "category": "Cryptography & Auth",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.02_password_strength_auditor.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "passwords",
+    "entropy",
+    "compliance",
+    "audit"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

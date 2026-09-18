@@ -1,0 +1,24 @@
+{
+  "id": "mod_009",
+  "name": "wireless_security_auditor",
+  "display_name": "Wireless Security Auditor",
+  "description": "Detects rogue access points, weak WEP/WPA authentication, and de-auth flood alerts",
+  "category": "Network Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.09_wireless_security_auditor.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "wireless",
+    "wpa3",
+    "rogue-ap",
+    "802.11"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

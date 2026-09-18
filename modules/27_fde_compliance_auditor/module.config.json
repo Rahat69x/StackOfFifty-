@@ -1,0 +1,24 @@
+{
+  "id": "mod_027",
+  "name": "fde_compliance_auditor",
+  "display_name": "Full Disk Encryption Compliance Auditor",
+  "description": "Verifies BitLocker and LUKS volume encryption status and key backup compliance",
+  "category": "Cryptography & Auth",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.27_fde_compliance_auditor.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "fde",
+    "bitlocker",
+    "luks",
+    "encryption-compliance"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mod_037",
+  "name": "smart_contract_static_analyzer",
+  "display_name": "Smart Contract Static Security Auditor",
+  "description": "Performs static AST security auditing for Solidity reentrancy bugs and integer anomalies",
+  "category": "Advanced Research",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.37_smart_contract_static_analyzer.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "smart-contract",
+    "solidity",
+    "reentrancy",
+    "audit"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

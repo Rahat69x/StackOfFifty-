@@ -1,0 +1,24 @@
+{
+  "id": "mod_019",
+  "name": "behavioral_anomaly_detector",
+  "display_name": "Behavioral Anomaly Detection Engine",
+  "description": "Applies statistical Z-score baseline modeling on authentication frequency and egress bandwidth",
+  "category": "AI/ML Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.19_behavioral_anomaly_detector.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "ai",
+    "anomaly",
+    "zscore",
+    "telemetry"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

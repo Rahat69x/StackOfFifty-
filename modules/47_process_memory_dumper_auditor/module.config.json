@@ -1,0 +1,23 @@
+{
+  "id": "mod_047",
+  "name": "process_memory_dumper_auditor",
+  "display_name": "Process Injection & Memory Auditor",
+  "description": "Scans running processes for unbacked memory pages (PAGE_EXECUTE_READWRITE) and hollowed PE headers",
+  "category": "System & Kernel Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.47_process_memory_dumper_auditor.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "memory-audit",
+    "process-hollowing",
+    "injection-detection"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

@@ -1,0 +1,23 @@
+{
+  "id": "mod_003",
+  "name": "network_traffic_analyzer",
+  "display_name": "Network Traffic Analyzer",
+  "description": "Performs passive network interface inspection, telemetry collection, and socket auditing",
+  "category": "Network Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.03_network_traffic_analyzer.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "network",
+    "sockets",
+    "telemetry"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

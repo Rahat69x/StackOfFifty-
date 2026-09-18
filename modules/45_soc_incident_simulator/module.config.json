@@ -1,0 +1,24 @@
+{
+  "id": "mod_045",
+  "name": "soc_incident_simulator",
+  "display_name": "SOC Blue Team Incident Simulator",
+  "description": "Generates structured SOC incident scenarios to evaluate analyst triage procedures",
+  "category": "Infrastructure",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.45_soc_incident_simulator.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "soc",
+    "simulation",
+    "training",
+    "blue-team"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

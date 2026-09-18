@@ -1,0 +1,24 @@
+{
+  "id": "mod_044",
+  "name": "upnp_mdns_iot_auditor",
+  "display_name": "IoT Device UPnP & mDNS Auditor",
+  "description": "Discovers and evaluates IoT devices exposing UPnP ports or advertising vulnerable mDNS services",
+  "category": "IoT & ICS Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.44_upnp_mdns_iot_auditor.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "iot",
+    "upnp",
+    "mdns",
+    "discovery"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

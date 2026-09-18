@@ -1,0 +1,24 @@
+{
+  "id": "mod_005",
+  "name": "digital_forensics_toolkit",
+  "display_name": "Digital Forensics Toolkit",
+  "description": "Parses disk timestamps, Master File Table records, and memory artifact baselines",
+  "category": "Forensics & Reverse Engineering",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.05_digital_forensics_toolkit.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "forensics",
+    "mft",
+    "timestomp",
+    "dfir"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

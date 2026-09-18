@@ -1,0 +1,24 @@
+{
+  "id": "mod_026",
+  "name": "cuckoo_sandbox_integrator",
+  "display_name": "Automated Sandbox Report Parser",
+  "description": "Parses behavioral execution summaries from isolated sandboxes and extracts IOCs",
+  "category": "Malware & Analysis",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.26_cuckoo_sandbox_integrator.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "sandbox",
+    "cuckoo",
+    "dynamic-analysis",
+    "ioc"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

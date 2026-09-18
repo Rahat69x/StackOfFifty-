@@ -1,0 +1,23 @@
+{
+  "id": "mod_049",
+  "name": "timing_leakage_analyzer",
+  "display_name": "Side-Channel Timing Leakage Analyzer",
+  "description": "Performs statistical microsecond timing analyses on cryptographic verification routines to prevent side-channel leaks",
+  "category": "Advanced Research",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.49_timing_leakage_analyzer.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "side-channel",
+    "timing-attack-defense",
+    "constant-time"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

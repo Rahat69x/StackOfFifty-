@@ -1,0 +1,24 @@
+{
+  "id": "mod_028",
+  "name": "ml_network_ids_engine",
+  "display_name": "ML NetFlow Anomaly IDS Engine",
+  "description": "Analyzes NetFlow and IPFIX telemetry using Isolation Forest to identify exfiltration",
+  "category": "AI/ML Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.28_ml_network_ids_engine.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "ml",
+    "netflow",
+    "isolation-forest",
+    "ids"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

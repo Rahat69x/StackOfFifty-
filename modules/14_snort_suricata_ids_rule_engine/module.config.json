@@ -1,0 +1,24 @@
+{
+  "id": "mod_014",
+  "name": "snort_suricata_ids_rule_engine",
+  "display_name": "Snort / Suricata IDS Rule Engine",
+  "description": "Parses and validates Snort and Suricata network intrusion signature rules for syntax and coverage",
+  "category": "Network Security",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.14_snort_suricata_ids_rule_engine.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "snort",
+    "suricata",
+    "ids",
+    "signatures"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

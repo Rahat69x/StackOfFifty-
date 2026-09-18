@@ -1,0 +1,24 @@
+{
+  "id": "mod_040",
+  "name": "firmware_binwalk_analyzer",
+  "display_name": "Firmware Image Static Auditor",
+  "description": "Scans firmware binaries for embedded private keys, hardcoded credentials, and known CVEs",
+  "category": "Forensics & Reverse Engineering",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.40_firmware_binwalk_analyzer.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "firmware",
+    "binwalk",
+    "embedded",
+    "iot-forensics"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

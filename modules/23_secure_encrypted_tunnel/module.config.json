@@ -1,0 +1,24 @@
+{
+  "id": "mod_023",
+  "name": "secure_encrypted_tunnel",
+  "display_name": "Secure Encrypted Tunnel",
+  "description": "Audits point-to-point WireGuard / TLS tunnels for secure analyst telemetry transmission",
+  "category": "Privacy & Anonymity",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "researcher",
+  "entry_point": "modules.23_secure_encrypted_tunnel.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "tunnel",
+    "wireguard",
+    "vpn",
+    "privacy"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}

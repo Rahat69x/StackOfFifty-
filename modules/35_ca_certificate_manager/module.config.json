@@ -1,0 +1,24 @@
+{
+  "id": "mod_035",
+  "name": "ca_certificate_manager",
+  "display_name": "Internal PKI & Certificate Manager",
+  "description": "Manages internal Root/Intermediate CA certificates, CRLs, and automated expiration alarms",
+  "category": "Cryptography & Auth",
+  "version": "1.0.0",
+  "author": "AegisCore SecOps",
+  "status": "enabled",
+  "permission_level": "admin",
+  "entry_point": "modules.35_ca_certificate_manager.main",
+  "dependencies": [],
+  "ports": [],
+  "tags": [
+    "pki",
+    "ca",
+    "x509",
+    "certificates"
+  ],
+  "safe_mode": true,
+  "lab_only": false,
+  "docs_path": "docs/README.md",
+  "settings": {}
+}
